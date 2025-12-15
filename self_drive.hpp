@@ -5,7 +5,6 @@
 #include <cmath>
 #include <memory>
 #include <algorithm>
-
 #include <rclcpp/rclcpp.hpp>
 #include <geometry_msgs/msg/twist_stamped.hpp>
 #include <sensor_msgs/msg/laser_scan.hpp>
@@ -46,4 +45,3 @@ private:
 };
 
 #endif  // SELF_DRIVE_HPP_
-
